@@ -4,7 +4,7 @@ pipeline {
         stage ('SCM checkout') {
             steps {
                 script{
-                     git credentialsId: 'git-cred', url: 'https://github.com/naresh26git/helm-node.git'
+                     git credentialsId: 'git-cred', url: 'https://github.com/subashdhanapal/Ecs-project.git'
                 }
             }
         }
